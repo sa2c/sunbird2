@@ -1,0 +1,114 @@
+site_name: "SUNBIRD2 documentation"
+site_description: "Documentation for the SUNBIRD2 high-performance computing service at Swansea University"
+site_url: https://sa2c.github.io/sunbird2/
+site_author: Swansea Academy of Advanced Computing
+site_dir: .site
+theme:
+  name: materialx
+  custom_dir: .overrides
+  language: en
+  favicon: favicon.ico
+  icon:
+    logo: octicons/broadcast-24
+  admonition:
+    update:
+      icon: material/update
+      color: '#2b9b46'
+    history:
+      icon: material/history
+      color: '#9b2b9b'
+    copyright:
+      icon: material/copyright
+      color: '#2b9b9b'
+    heart:
+      icon: octicons/heart-24
+      color: '#9b2b9b'
+    lyrics:
+      icon: material/microphone
+      color: '#2b2b9b'
+    soundcloud:
+      icon: simple/soundcloud
+      color: '#ff7700'
+    transmission:
+      icon: material/radio-tower
+      color: '#2b9b2b'
+  palette:
+  - media: "(prefers-color-scheme)"
+    toggle:
+      icon: material/brightness-auto
+      name: Switch to Light Mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: default
+    toggle:
+      icon: material/brightness-7
+      name: Switch to Dark Mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    toggle:
+      icon: material/brightness-4
+      name: Use Your System Preferences
+  font:
+    text: Roboto
+    code: Fira Code
+  features:
+  - content.code.annotate
+  - content.code.copy
+  - content.tabs.link
+  - navigation.expand
+  - navigation.footer
+  - navigation.indexes
+  - navigation.instant
+  - navigation.path
+  - navigation.prune
+  - navigation.sections
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.share
+  - search.suggest
+  - toc.follow
+
+# Extensions
+markdown_extensions:
+- abbr
+- admonition
+- attr_list
+- footnotes
+- md_in_html
+- pymdownx.betterem:
+    smart_enable: all
+- pymdownx.critic
+- pymdownx.caret
+- pymdownx.details
+- pymdownx.emoji:
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+    options:
+        custom_icons:
+          - .overrides/.icons
+- pymdownx.highlight:
+    anchor_linenums: true
+    line_spans: __span
+    pygments_lang_class: true
+    use_pygments: true
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.snippets:
+    check_paths: true
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.mark
+- pymdownx.tilde
+- tables
+- toc:
+    permalink: true
+
+nav:
+  - Home: index.md
+  - Migration plans: plans.md
+  - Available software: software.md
