@@ -111,4 +111,15 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Migration plans: plans.md
+  - Getting access: access.md
+  - Logging in:
+    - First-time login: firsttime.md
+    - Subsequent logins: login.md
   - Available software: software.md
+  - Running jobs: running.md
+  - Partition information:
+    - CPU partitions: partitions/compute.md
+    - AccelerateAI: partitions/accel_ai.md
+    - AccelerateAI-H100: partitions/accel_ai_h100.md
+    - AccelerateAI-GH: partitions/accel_ai_gh.md
+  - Getting help: support.md
