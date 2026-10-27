@@ -63,7 +63,7 @@ Key points here:
     by using the `sinfo` command.
     
     If you need to run longer than this,
-    in exceptional cases you can fill out the [non-standard job request][request].
+    in exceptional cases you can fill out the [non-standard job request][nonstandard].
     However,
     if this will be a recurring requirement,
     we will ask you to investigate implementing checkpointing in your software,
@@ -115,5 +115,6 @@ This makes sure that you aren't wasting resources that others could be using in 
 
 
 [hpc-carpentry]: <https://carpentries-incubator.github.io/hpc-intro/>
+[nonstandard]: <https://forms.cloud.microsoft/e/q5EnhczjqC>
 [shell]: <https://swcarpenrty.github.io/shell-novice>
 [slurm]: <https://slurm.schedmd.com/overview.html>
