@@ -76,6 +76,16 @@ Sunbird2 will guide you through MFA enrolment.
     Store the emergency codes somewhere secure,
     such as a password manager.
 
+!!! note
+    ## macOS
+
+    On macOS,
+    the default Terminal.app and SF Mono font
+    will display blank space between each line,
+    making the QR code more difficult to scan.
+    If you have difficulty,
+    try zoom in and out or changing to a different terminal font.
+
 ## Expect to be disconnected
 
 When enrolment is complete,
