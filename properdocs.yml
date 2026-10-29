@@ -110,7 +110,6 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Migration plans: plans.md
   - Getting access: access.md
   - Logging in:
     - First-time login: firsttime.md
