@@ -115,6 +115,7 @@ nav:
     - First-time login: firsttime.md
     - Subsequent logins: login.md
   - Available software: software.md
+  - Storage and filesystems: storage.md
   - Running jobs: running.md
   - Partition information:
     - CPU partitions: partitions/compute.md
