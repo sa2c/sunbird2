@@ -61,11 +61,20 @@ and press Enter.
 
 ## Complete MFA enrolment
 
+!!! note
+    ## Do not use your camera app
+
+    During this enrolment process,
+    you will be presented with a QR code.
+    It's important that you scan this using your authenticator app,
+    not with the default camera app in your phone,
+    to ensure that your enrolment is saved for you to log in with in future.
+
 On your first login,
 Sunbird2 will guide you through MFA enrolment.
 
 1. Press Enter when prompted to begin MFA enrolment.
-2. Scan the QR code using your authenticator app.
+2. Scan the QR code **using your authenticator app**.
 3. Enter the verification code shown by the app.
 4. Save the emergency scratch codes somewhere secure when they are displayed.
 
